@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chronometer USCO</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body class="body">
+    <STYLE>A {text-decoration: none;} </STYLE>
+    <header class="header">
+        <div>
+            <img src="logo.jpg" height="120px"  width="400px">
+        </div>    
+        <div class="title">
+            <h1>Ingeniería Electrónica-API</h1>
+        </div>
+    </header>
+
+    <nav class="nav">
+        <ul class="menu">
+            <a>Cronómetro Surcolombiano</a>
+        </ul> 
+    </nav>
+
+    <section id="section" class="section">
+
+        <div class="chronometer">
+            <div id="screen" class="screen">00 : 00 : 00 : 00</div>
+            <div class="buttons">
+                <button class="emerald" onclick="start()" id="inicio">START &#9658;</button>
+                <button class="emerald" onclick="stop()" id="parar">STOP &#8718;</button>
+                <button class="emerald" onclick="resume()" id="continuar">RESUME &#8634;</button>
+                <button class="emerald" onclick="reset()" id="resetear">RESET &#8635;</button>
+            </div>
+        </div>
+
+
+    </section>
+
+    <div class="guia">
+        <div id="postElement1"></div>
+        <div id="postElement2"></div>
+        <div id="postElement3"></div>
+    </div>
+
+    <footer class="footer">    
+        <h3>Correo:u20162150763@usco.edu.co - u20162151287@usco.edu.co</h3>
+        <h3>Celular:3177493471 - 3132067852</h3>
+        <h6>By Christian Guevara & Juan Jimenez</h6>
+    </footer>
+
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-database.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyDJd9PYwoYvQb3uVBPr8_YDy4m8_RjCgkw",
+    authDomain: "chronometerapi.firebaseapp.com",
+    databaseURL: "https://chronometerapi-default-rtdb.firebaseio.com",
+    projectId: "chronometerapi",
+    storageBucket: "chronometerapi.appspot.com",
+    messagingSenderId: "481802874131",
+    appId: "1:481802874131:web:53969f19bda40965ba3ee6"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+
+
+    <script src="./javascript.js"></script>
+</body>
+
+</html>

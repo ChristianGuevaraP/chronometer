@@ -1,0 +1,117 @@
+*{margin: 0%;
+    padding: 0%;}
+    
+    .header{color: #FFF;
+            background: #8F141B;  
+            margin: 0%;
+            height: auto;}
+    .title{padding: 6%;
+            text-align: right;
+            margin-right: 20%;}
+    .header img{padding: 2%;
+                float: left;
+                margin-right: 4%;}
+    .nav{border: black;
+        border-radius: 5px;
+        border-style: double;
+        background:white;
+        margin: 0%;
+        margin-top: 0%;
+        padding: 0%;
+        text-align: center;
+    }
+    .nav a{color: black;
+        padding: 1.5%;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+        font-size: 25px;
+        }
+
+    .section{   background: rgb(192, 66, 66);
+            height: auto;}
+    
+    .footer{padding: auto;
+             text-align: center;
+             clear: both;
+             color: white;
+             background: black;
+            height: auto;}
+   
+    .guia{
+        background-color: #EFEAD3;
+        color: #EFEAD3;
+    }
+
+    .chronometer{  
+    background-color: #EFEAD3;
+    text-align: center;
+    padding: 10%;
+    height: auto;
+    }
+/*  
+    .chronometer{  
+    margin: 0%;
+    padding-left: 18%;
+    padding-right: 20%;
+    padding-top: 8%;
+    background-color: #19bad6;
+    } */
+
+ /*   #screen {
+        align-items: center;
+        text-align: center;
+        font-family: Calibri,Arial;
+        font-weight: 300;
+        font-size: 55px;
+        width: 400px;
+        height: 80px;
+        color: rgb(0, 0, 0);
+        letter-spacing: 3px;
+    } */
+   
+    .screen{
+        color: black;
+        font-family: Calibri,Arial;
+        font-size: 55px;
+        background-color: rgb(17, 224, 224);
+        margin-left: 5%;
+        margin-right: 5%;
+        border: 3px solid #000;
+
+    }
+
+  .buttons {
+    background-color: #EFEAD3;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+    }
+    .emerald {
+        border-radius: 5px;
+        width: 80px;
+        height: 30px;
+        margin: 5px;
+        border: 1px solid #384049;
+      color: white;
+      cursor: pointer;
+      font-family: Calibri,Arial;
+      font-weight: 300;
+      outline: none;
+      text-shadow: 0px -1px 1px black;
+      text-transform: uppercase;
+      transition: all 0.2s ease;
+    }
+    
+    .emerald{
+       background-image: linear-gradient(#3aad02,#2c6f05);
+    }
+    .emerald:active{
+       background-image: linear-gradient(#2c6f05,#3aad02);
+       text-shadow:      0px 1px 1px black;
+    }
+
+    .datos{
+        align-items: center;
+        text-align: center;
+        padding-top: 3%;
+ 
+    }
